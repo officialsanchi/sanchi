@@ -1,0 +1,49 @@
+.logo{
+    background-color: black;
+    color: white;
+    width: 20%;
+    padding: 10px;
+    height: 100%;
+    text-align: center;
+
+}
+.nav{
+    display: flex;
+    width: 100%;
+    background-color:pink;
+    justify-content: space-between;
+    align-items:center;
+}
+.writeup{
+    width: 65%;
+    font-size: 24px;
+    
+}
+
+.writeup ul li{
+    display: inline-block;
+
+}
+.writeup ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+    margin: 0 40px;
+    background-color: gray;
+    transition: 2s ease;
+   
+}
+.writeup ul li a:hover{
+    background-color: gold;
+    color: black;
+}
+.btn{
+    width: 15%;
+}
+.btn button{
+padding: 8px 15px;
+background-color: aqua;
+margin-left: 30px;
+font-size: 18px;
+border-radius: 10px;
+}
